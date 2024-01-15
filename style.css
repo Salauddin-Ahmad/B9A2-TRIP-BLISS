@@ -1,7 +1,90 @@
 /* UNIVERSAL STYLES */
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
+}
+/* UNIVERSAL STYLES SECTION */
+ .black-normal-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #424247;
+ }
+
+
+/* NAV SECTION STARTS HERE */
+ .hamburger-menu{
+    display: none;
+}
+.header {
+    margin: 30px 60px;
+}
+
+.nav-left {
+    width: 46%;
+}
+
+.nav-right {
+    width: 56%;
+}
+
+.navigation,
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.tripbliss-text{
+    font-size: 2rem;
+}
+.bliss-orange{
+    color: #FF5400;
+}
+.navigation>.nav-right>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-right ul {
+    list-style: none;
+}
+.nav-right a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/* NAV SECTION ENDS HERE */
+
+
+/* MEDIA QUERIES FOR SMALL DEVICES */
+
+@media screen and (max-width: 600px){
+/* nav section starts */
+    .nav-right{
+        visibility: hidden;
+    }
+    .logo{
+        width: 50px;
+    }
+    .nav-left{
+        min-width: fit-content;
+    }
+    .hamburger-menu {
+        margin: 1rem;
+        padding: 1rem;
+        background-image: url("./Images/favicon/favicon-32x32.png");
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* nav section ends */
+    /* banner section starts  */
+
+
+    
+    /* banner section ends  */
+
+
 }
