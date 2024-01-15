@@ -20,7 +20,7 @@
 }
 
 .header {
-    margin: 0 40px;
+    margin: 0 80px;
 }
 
 .nav-left {
@@ -129,6 +129,39 @@
     height: 52px;
 }
 
+/* banner section ends  */
+
+/* OUR POPULAR TRIPS STARTS */
+.our-popular-tours-text-container {
+
+    display: flex;
+    padding: 10px;
+    margin: 1.2rem 3.5rem;
+    align-items: center;
+}
+
+.rightsided-image{
+    margin-left: 1.4rem;
+}
+.tours-title{
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+.summary{
+    padding-top: 1rem ;
+    font-size: 1.1rem;
+}
+.tours-description {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+
+/* OUR POPULAR TRIPS ENDS */
+
+
 
 @media screen and (max-width: 600px) {
 
@@ -138,12 +171,15 @@
     }
 
     .logo {
-        width: 50px;
+        width: 30%;
+        margin-right: 2rem;
     }
 
     .nav-left {
-        min-width: fit-content;
+        min-width: 60vw;
     }
+
+    .tripbliss-text {}
 
     .hamburger-menu {
         margin: 1rem 2rem;
@@ -176,7 +212,7 @@
     .banner-when,
     .banner-select {
         min-width: 60vw;
-        max-height:  auto;
+        max-height: auto;
 
     }
 
@@ -184,6 +220,6 @@
         font-size: 2.5rem;
         padding-top: 10px;
     }
-}
 
-/* banner section ends  */
+    /* banner section ends  */
+}
