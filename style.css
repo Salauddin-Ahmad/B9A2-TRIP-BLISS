@@ -5,18 +5,20 @@
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
+
 /* UNIVERSAL STYLES SECTION */
- .black-normal-text{
+.black-normal-text {
     font-size: 1.2rem;
     font-weight: 400;
     color: #424247;
- }
+}
 
 
 /* NAV SECTION STARTS HERE */
- .hamburger-menu{
+.hamburger-menu {
     display: none;
 }
+
 .header {
     margin: 0 40px;
 }
@@ -35,12 +37,15 @@
     display: flex;
     align-items: center;
 }
-.tripbliss-text{
+
+.tripbliss-text {
     font-size: 2rem;
 }
-.bliss-orange{
+
+.bliss-orange {
     color: #FF5400;
 }
+
 .navigation>.nav-right>ul {
     display: flex;
     justify-content: space-between;
@@ -49,27 +54,97 @@
 .nav-right ul {
     list-style: none;
 }
-.nav-right a{
+
+.nav-right a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 400;
 }
+
 /* NAV SECTION ENDS HERE */
+/* BANNER IMAGE STARTS */
+.banner-parent {
+    margin: 3rem auto;
+    background-image: url("./Images/Group-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 28rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.banner-title {
+    padding-top: 6.625rem;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+.banner-description {
+    color: #FFF;
+    margin: 24px auto;
+    width: 676px;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 48px;
+}
+
+.banner-input-fields-parent {
+    padding: 2.5rem;
+    border-radius: 8px;
+    width: fit-content;
+    height: 4rem;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.492);
+    display: flex;
+    gap: 1.3rem;
+
+}
+
+.banner-text,
+.banner-when,
+.banner-select {
+    width: 10.8rem;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding-left: 16px;
+    color: rgba(104, 108, 110, 0.348);
+    font-weight: 400;
+}
+
+.banner-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 16px 34px;
+    color: #FFF;
+    font-weight: 700;
+    width: 174px;
+    height: 52px;
+}
 
 
-/* MEDIA QUERIES FOR SMALL DEVICES */
+@media screen and (max-width: 600px) {
 
-@media screen and (max-width: 600px){
-/* nav section starts */
-    .nav-right{
+    /* nav section starts */
+    .nav-right {
         visibility: hidden;
     }
-    .logo{
+
+    .logo {
         width: 50px;
     }
-    .nav-left{
+
+    .nav-left {
         min-width: fit-content;
     }
+
     .hamburger-menu {
         margin: 1rem 2rem;
         padding: 0 1.5rem;
@@ -80,12 +155,35 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+
     /* nav section ends */
     /* banner section starts  */
+    .banner-parent {
+        width: 95%;
+        min-height: 60vh;
+    }
 
+    .banner-input-fields-parent {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: 32vh;
+        row-gap: 10px;
 
-    
-    /* banner section ends  */
+    }
 
+    .banner-text,
+    .banner-when,
+    .banner-select {
+        min-width: 60vw;
+        max-height:  auto;
 
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+        padding-top: 10px;
+    }
 }
+
+/* banner section ends  */
