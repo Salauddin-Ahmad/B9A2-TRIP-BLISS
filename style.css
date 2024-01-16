@@ -283,7 +283,6 @@
     display: flex;
     width: 95%;
     height: 25rem;
-
     margin: 1rem auto;
     border-radius: 1rem;
     align-items: center;
@@ -300,7 +299,7 @@
 
 }
 
-.newsletter-input-card-parent {}
+
 
 .card {
     display: flex;
@@ -501,4 +500,25 @@
     }
 
     /* WHY US */
+    /* NEWSLETTER START */
+
+    .newsletter-parent{
+        flex-direction: column;
+        width: 100%;
+    }
+    .input-field{
+        width: 20rem;
+    }
+    .card{
+        width: 20rem;
+    }
+    .newsletter-img{
+        width: 80%;
+        min-height: 100%;
+    }
+    .tilted-box{
+        position: relative;
+        top: 16.5rem;
+        left: 3.5rem;
+    }
 }
