@@ -149,13 +149,17 @@
 /* OUR POPULAR TRIPS STARTS */
 .our-popular-tours-text-container {
     display: flex;
-    padding: 10px;
-    margin: 1.2rem 3.5rem;
+    text-align: left;
+    /* padding: 10px; */
+    margin: 1.2rem 1.5rem;
     align-items: center;
+
 }
 
-.rightsided-image {
-    margin-left: 1.4rem;
+.popular-image {
+    width: 30rem;
+    height: 30rem;
+    object-fit: contain;
 }
 
 .tours-title {
@@ -174,66 +178,110 @@
     padding-bottom: 1rem;
     font-size: 1.1rem;
 }
+
 /* OUR POPULAR TRIPS ENDS */
 
 /* DESTINATION GALLERY */
-.destination-text-container{
+.destination-text-container {
 
     text-align: center;
     margin: 4rem 3.5rem;
 }
-.destination-title{
+
+.destination-title {
     color: #14141a;
     font-weight: 800;
     font-size: 2.5rem;
 }
-.destination-description{
+
+.destination-description {
     margin-top: 1.5rem;
     color: rgba(20, 20, 26, 0.7);
     font-weight: 400;
 }
-.Maldives{
+
+.Maldives {
     grid-area: Maldives;
 }
-.Indonesia{
+
+.Indonesia {
     grid-area: Indonesia;
 }
-.Srilanka{
+
+.Srilanka {
     grid-area: Srilanka;
 }
-.North-America{
+
+.North-America {
     grid-area: North-America;
 }
-.Kashmir{
+
+.Kashmir {
     grid-area: Kashmir;
 }
-.Bangladesh{
+
+.Bangladesh {
     grid-area: Bangladesh;
 }
-.Bandarban{
+
+.Bandarban {
     grid-area: Bandarban;
 }
-.destination-gallery-container img{
+
+.destination-gallery-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 1rem;
 }
-.destination-gallery-container{
+
+.destination-gallery-container {
     width: 90%;
     margin: 0 auto;
     display: grid;
     text-align: center;
     justify-content: center;
-    grid-template-areas: 
-    "Maldives Maldives Maldives Indonesia Indonesia Indonesia"
-    "Srilanka Srilanka North-America North-America North-America Kashmir"
-    "Bangladesh Bangladesh Bandarban Bandarban Bandarban Bandarban";
+    grid-template-areas:
+        "Maldives Maldives Maldives Indonesia Indonesia Indonesia"
+        "Srilanka Srilanka North-America North-America North-America Kashmir"
+        "Bangladesh Bangladesh Bandarban Bandarban Bandarban Bandarban";
     gap: 1.3rem;
     margin-bottom: 3.12rem;
 }
 
 /* DESTINATION GALLERY */
+/* why choose us section */
+.why-us-text-container {
+    margin: 2rem 4rem;
+    font-weight: 800;
+}
+
+.why-us-title {
+    font-size: 3rem;
+}
+
+.why-us-text-container .why-us-title {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.why-us-card-container {
+    background-color: #f8ddcf;
+    width: 50%;
+    margin: 2rem 3rem;
+    height: 25rem;
+    border: 1px solid #FF5400;
+    border-radius: 1rem;
+    
+}
+
+/* why choose us section ending*/
+
+/* NEWSLETTER STARTS */
+
+/* NEWSLETTER ENDS */
+
 /* FOOTER STARTS */
 .footer-container {
     padding: 3rem 5rem;
@@ -244,12 +292,15 @@
     min-height: 60vh;
     background: rgba(19, 19, 24, 0.05);
 }
-.tripblisss-footer{
+
+.tripblisss-footer {
     padding: 8px;
 }
-.footer-text{
+
+.footer-text {
     display: grid;
 }
+
 /* FOOTER ENDS */
 
 
@@ -315,29 +366,46 @@
     /* POPULAR TOUR */
     .our-popular-tours-text-container {
         flex-direction: column;
+        /* justify-content: center; */
     }
+
+    .popular-image {
+        width: 22rem;
+        height: 30rem;
+        object-fit: contain;
+    }
+
+
     /* POPULAR TOUR */
 
-    .destination-gallery-container img{
+    /* YOUR DESTINATION  GALLERY STARTS */
+    .destination-gallery-container img {
         height: 35vh;
     }
-    /* YOUR DESTINATION  GALLERY STARTS */
-    .destination-gallery-container{
+
+    .destination-gallery-container {
         width: 90%;
         margin: 0 auto;
         display: grid;
         text-align: center;
         justify-content: center;
-        grid-template-areas: 
-        "Maldives"
-        "Indonesia"
-        "Srilanka"
-        "North-America"
-        "Kashmir"
-        "Bangladesh"
-        "Bandarban";
+        grid-template-areas:
+            "Maldives"
+            "Indonesia"
+            "Srilanka"
+            "North-America"
+            "Kashmir"
+            "Bangladesh"
+            "Bandarban";
         gap: 1rem;
     }
+
     /* YOUR DESTINATION  GALLERY ENDS */
 
+    /* WHY US */
+    .why-us-text-container {
+        flex-direction: column;
+    }
+
+    /* WHY US */
 }
