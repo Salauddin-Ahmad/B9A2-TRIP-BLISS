@@ -375,23 +375,36 @@
 /* NEWSLETTER ENDS */
 
 /* FOOTER STARTS */
-.footer-container {
-    padding: 3rem 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    min-height: 60vh;
+.footer-container{
+    padding-top: 1rem;
+    height: 20rem;
     background: rgba(19, 19, 24, 0.05);
 }
-
-.tripblisss-footer {
-    padding: 8px;
+.tripbliss-logo-container{
+    margin-top: 2rem;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+.tripbliss-advisory{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.footer-text{
+    padding-top:  3rem;
+    text-align: center;
+}
+.scocial-icon{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer-text {
-    display: grid;
+.hra{
+margin: 1rem;
 }
+
 
 /* FOOTER ENDS */
 
@@ -498,8 +511,8 @@
     .why-us-text-container {
         flex-direction: column;
     }
-
     /* WHY US */
+
     /* NEWSLETTER START */
 
     .newsletter-parent{
