@@ -251,30 +251,82 @@
 
 /* DESTINATION GALLERY */
 /* why choose us section */
-.why-us-text-container {
-    margin: 2rem 4rem;
-    font-weight: 800;
-}
-
-.why-us-title {
-    font-size: 3rem;
-}
-
-.why-us-text-container .why-us-title {
+/* WHY US */
+.choose-us{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    align-items: center;
 }
 
-.why-us-card-container {
-    background-color: #f8ddcf;
-    width: 50%;
-    margin: 2rem 3rem;
-    height: 25rem;
-    border: 1px solid #FF5400;
-    border-radius: 1rem;
+.title-us{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    width: 60vw;
+    text-align: center;
 
 }
+.sub-us{
+    margin-top: 24px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    text-align: center;
+    width: 70vw;
+}
+
+.card-holder{
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+#c1{
+    grid-column: 1/span 6;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+#c2{
+    grid-column: 7/span 6;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+#c3{
+    grid-row: 2/ span 1;
+    grid-column: 4/ span 6;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.card{
+    padding: 32px;
+}
+.card-container img{
+    width: 64px;
+    height: 64px;
+}
+
+.card-container h1{
+    padding-top: 32px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.card-container p{
+    padding-top: 32px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+/* WHY US */
 
 /* why choose us section ending*/
 
@@ -508,8 +560,79 @@ margin: 1rem;
     /* YOUR DESTINATION  GALLERY ENDS */
 
     /* WHY US */
-    .why-us-text-container {
+    .choose-us{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title-us{
+        color: #131318;
+        font-size: 40px;
+        font-weight: 800;
+        width: 60vw;
+        text-align: center;
+    
+    }
+    .sub-us{
+        margin-top: 24px;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        text-align: center;
+        width: 70vw;
+    }
+    
+    .card-holder{
+        margin-top: 48px;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 24px;
+        column-gap: 24px;
+    }
+    #c1{
+        grid-column: 1/span 6;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+    }
+    #c2{
+        grid-column: 7/span 6;
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+    }
+    #c3{
+        grid-row: 2/ span 1;
+        grid-column: 4/ span 6;
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+    }
+    .card{
+        padding: 32px;
+    }
+    .card-container img{
+        width: 64px;
+        height: 64px;
+    }
+    
+    .card-container h1{
+        padding-top: 32px;
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+    
+    }
+    .card-container p{
+        padding-top: 32px;
+        color: #5A5A5D;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
     }
     /* WHY US */
 
