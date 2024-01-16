@@ -311,8 +311,33 @@
     }
 
     /* banner section ends  */
+
     /* POPULAR TOUR */
     .our-popular-tours-text-container {
         flex-direction: column;
     }
+    /* POPULAR TOUR */
+
+    .destination-gallery-container img{
+        height: 35vh;
+    }
+    /* YOUR DESTINATION  GALLERY STARTS */
+    .destination-gallery-container{
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        grid-template-areas: 
+        "Maldives"
+        "Indonesia"
+        "Srilanka"
+        "North-America"
+        "Kashmir"
+        "Bangladesh"
+        "Bandarban";
+        gap: 1rem;
+    }
+    /* YOUR DESTINATION  GALLERY ENDS */
+
 }
