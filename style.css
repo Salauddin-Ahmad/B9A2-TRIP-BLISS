@@ -273,12 +273,105 @@
     height: 25rem;
     border: 1px solid #FF5400;
     border-radius: 1rem;
-    
+
 }
 
 /* why choose us section ending*/
 
 /* NEWSLETTER STARTS */
+.newsletter-parent {
+    display: flex;
+    width: 95%;
+    height: 25rem;
+
+    margin: 1rem auto;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.newsletter-input-card-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+
+}
+
+.newsletter-input-card-parent {}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 95%;
+    height: 90%;
+    margin-top: 1rem;
+    border: 2px solid salmon;
+    border-radius: 1rem;
+
+}
+
+.hrr {
+    width: 30vw;
+    margin: 1rem;
+}
+
+.input-actualfields {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-field {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 1rem;
+    color: (19, 19, 24, 0.05);
+
+
+}
+
+.subscribe {
+    width: 20rem;
+    height: 3rem;
+    background-color: #FF5400;
+    border-radius: 1rem;
+}
+
+.newsletter-img {
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    background: url("./Images/Rectangle8\(1\).png");
+    width: 46%;
+    height: 84%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tilted-box {
+    position: relative;
+    top: 13.5rem;
+    left: 14rem;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 20px;
+    width: fit-content;
+    transform: rotate(-15deg);
+}
+
+.tilted-box p,
+.tilted-box h2 {
+    margin: 0;
+}
+
+
 
 /* NEWSLETTER ENDS */
 
