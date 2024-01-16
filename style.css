@@ -246,13 +246,15 @@
         "Srilanka Srilanka North-America North-America North-America Kashmir"
         "Bangladesh Bangladesh Bandarban Bandarban Bandarban Bandarban";
     gap: 1.3rem;
-    margin-bottom: 3.12rem;
+    margin-bottom: 4.12rem;
 }
 
-/* DESTINATION GALLERY */
+/* DESTINATION GALLERY ENDS */
+
 /* why choose us section */
-/* WHY US */
 .choose-us{
+    margin-top: 15rem 0;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -261,20 +263,19 @@
 
 .title-us{
     color: #131318;
-    font-size: 40px;
+    font-size: 2.2rem;
     font-weight: 800;
     width: 60vw;
     text-align: center;
 
 }
 .sub-us{
-    margin-top: 24px;
+    margin-top: 2rem;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
     text-align: center;
-    width: 70vw;
+    width: 60vw;
 }
 
 .card-holder{
@@ -326,7 +327,6 @@
     font-weight: 400;
     line-height: 26px; /* 162.5% */
 }
-/* WHY US */
 
 /* why choose us section ending*/
 
@@ -334,8 +334,9 @@
 .newsletter-parent {
     display: flex;
     width: 95%;
-    height: 25rem;
-    margin: 1rem auto;
+    height: 30rem;
+    margin-top: 3rem;
+    margin-bottom: 23rem;
     border-radius: 1rem;
     align-items: center;
 }
@@ -428,8 +429,8 @@
 
 /* FOOTER STARTS */
 .footer-container{
-    padding-top: 1rem;
-    height: 20rem;
+    padding-top: 5rem;
+    height: 25rem;
     background: rgba(19, 19, 24, 0.05);
 }
 .tripbliss-logo-container{
