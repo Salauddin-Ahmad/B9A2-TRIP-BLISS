@@ -372,7 +372,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    width: 95%;
+    width: 90%;
     height: 90%;
     margin-top: 1rem;
     border: 2px solid salmon;
@@ -386,26 +386,29 @@
 }
 
 .input-actualfields {
-    padding-top: 2rem;
+    padding-top: 1%;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 1rem;
 }
 
 .input-field {
-    width: 20rem;
+    background: rgba(19, 19, 24, 0.05);
+    width: 19rem;
     height: 3rem;
-    border-radius: 1rem;
+    border: none;
+    border-radius: 7px;
     color: (19, 19, 24, 0.05);
 
 
 }
 
 .subscribe {
-    width: 20rem;
+    width: 19rem;
     height: 3rem;
     background-color: #FF5400;
-    border-radius: 1rem;
+    border: none;
+    border-radius: 7px;
 }
 
 .newsletter-img {
@@ -422,13 +425,13 @@
 
 .tilted-box {
     position: relative;
-    top: 13.5rem;
-    left: 14rem;
+    top: 16.5rem;
+    left: 13rem;
     border-radius: 16px;
     background: #FF5400;
     padding: 20px;
     width: fit-content;
-    transform: rotate(-15deg);
+    transform: rotate(-20deg);
 }
 
 .tilted-box p,
@@ -611,10 +614,11 @@ margin: 1rem;
         width: 100%;
     }
     .input-field{
-        width: 20rem;
+        width: 19rem;
     }
     .card{
-        width: 20rem;
+        width: 20.6rem;
+        height: 24rem;
     }
     .newsletter-img{
         width: 80%;
@@ -622,7 +626,7 @@ margin: 1rem;
     }
     .tilted-box{
         position: relative;
-        top: 16.5rem;
-        left: 3.5rem;
+        top: 22.2rem;
+        left: 4.5rem;
     }
 }
